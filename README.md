@@ -11,13 +11,13 @@ Tokens are stored in a Redis database and are hashed and salted using [bcryptjs]
 
 First, install the module:
 
-`$ npm install passwordless-redisstore --save`
+`$ npm install passwordless-redisstore-bcryptjs --save`
 
 Afterwards, follow the guide for [Passwordless](https://github.com/florianheinemann/passwordless). A typical implementation may look like this:
 
 ```javascript
 var passwordless = require('passwordless');
-var RedisStore = require('passwordless-redisstore');
+var RedisStore = require('passwordless-redisstore-bcryptjs');
 
 passwordless.init(new RedisStore(6379, '127.0.0.1'));
 

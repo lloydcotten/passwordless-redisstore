@@ -1,6 +1,6 @@
 {
   "name": "passwordless-redisstore-bcryptjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redis TokenStore for Passwordless (with pure js bcrypt)",
   "main": "index.js",
   "scripts": {
