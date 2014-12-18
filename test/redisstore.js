@@ -34,7 +34,7 @@ var afterEachTest = function(done) {
 }
 
 // Call all standard tests
-standardTests(TokenStoreFactory, beforeEachTest, afterEachTest);
+standardTests(TokenStoreFactory, beforeEachTest, afterEachTest, 500);
 
 describe('Specific tests', function() {
 

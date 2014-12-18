@@ -1,14 +1,14 @@
 {
-  "name": "passwordless-redisstore",
+  "name": "passwordless-redisstore-bcryptjs",
   "version": "0.0.1",
-  "description": "Redis TokenStore for Passwordless",
+  "description": "Redis TokenStore for Passwordless (with pure js bcrypt)",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "bcrypt": "^0.7.8",
+    "bcryptjs": "^2.1.0",
     "passwordless-tokenstore": "0.0.10",
     "redis": "^0.10.3"
   },
@@ -16,14 +16,14 @@
     "chai": "~1.9.1",
     "chance": "^0.5.6",
     "grunt": "~0.4.4",
-    "grunt-mocha-test": "~0.10.2",
+    "grunt-mocha-test": "^0.12.0",
     "mocha": "~1.18.2",
     "node-uuid": "^1.4.1",
     "passwordless-tokenstore-test": "^0.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/florianheinemann/passwordless-redisstore.git"
+    "url": "https://github.com/lloydcotten/passwordless-redisstore.git"
   },
   "keywords": [
     "redis",
@@ -35,9 +35,12 @@
     "tokenstore"
   ],
   "author": "Florian Heinemann <florian.heinemann@gmail.com> (http://twitter.com/florian__h)",
+  "contributors": [
+    "Lloyd Cotten <lloyd@lloydcotten.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/florianheinemann/passwordless-redisstore/issues"
+    "url": "https://github.com/lloydcotten/passwordless-redisstore/issues"
   },
-  "homepage": "https://github.com/florianheinemann/passwordless-redisstore"
+  "homepage": "https://github.com/lloydcotten/passwordless-redisstore"
 }
